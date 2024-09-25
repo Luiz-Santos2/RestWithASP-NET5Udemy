@@ -1,6 +1,5 @@
 ﻿using RestWithASPNETUdemy.Model;
 using RestWithASPNETUdemy.Model.Context;
-using System;
 
 namespace RestWithASPNETUdemy.Services.Implementations
 {
@@ -57,9 +56,7 @@ namespace RestWithASPNETUdemy.Services.Implementations
         {
             
             return _context.Persons.ToList();
-        }
-
-       
+        }       
 
         public Person FindByID(long id)
         {
@@ -86,9 +83,7 @@ namespace RestWithASPNETUdemy.Services.Implementations
                 throw;
             }
             return person;
-        }
-
-       
+        }       
 
     }
 }
