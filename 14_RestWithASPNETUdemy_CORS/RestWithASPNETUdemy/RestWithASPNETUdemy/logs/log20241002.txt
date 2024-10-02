@@ -1,0 +1,76 @@
+2024-10-02 09:17:13.405 -03:00 [INF] Executing Migrate...
+2024-10-02 09:17:13.443 -03:00 [INF] Evolve initialized.
+2024-10-02 09:17:13.582 -03:00 [INF] Metadata validated.
+2024-10-02 09:17:13.593 -03:00 [INF] Database is up to date. No migration needed.
+2024-10-02 09:17:13.793 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-02 09:17:13.851 -03:00 [DBG] Hosting starting
+2024-10-02 09:17:13.995 -03:00 [DBG] Loaded hosting startup assembly RestWithASPNETUdemy
+2024-10-02 09:17:13.995 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-02 09:17:13.995 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-02 09:17:13.995 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-02 09:17:14.048 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44300/ - null null
+2024-10-02 09:17:14.264 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-02 09:17:14.281 -03:00 [DBG] No candidates found for the request path '/'
+2024-10-02 09:17:14.281 -03:00 [DBG] Request did not match any endpoints
+2024-10-02 09:17:14.295 -03:00 [DBG] The request path  does not match the path filter
+2024-10-02 09:17:14.297 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-02 09:17:14.298 -03:00 [INF] Hosting environment: Development
+2024-10-02 09:17:14.298 -03:00 [INF] Content root path: D:\Projetos\Aulas\API REST\RestWithASP-NET5Udemy\14_RestWithASPNETUdemy_CORS\RestWithASPNETUdemy\RestWithASPNETUdemy
+2024-10-02 09:17:14.298 -03:00 [DBG] Hosting started
+2024-10-02 09:17:14.299 -03:00 [INF] Request was redirected to /swagger
+2024-10-02 09:17:14.302 -03:00 [DBG] Request is done processing. Location header '/swagger' with status code '302'.
+2024-10-02 09:17:14.326 -03:00 [DBG] Connection ID "18374686497656799233" disconnecting.
+2024-10-02 09:17:14.326 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.html - null null
+2024-10-02 09:17:14.330 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-10-02 09:17:14.330 -03:00 [DBG] Request did not match any endpoints
+2024-10-02 09:17:14.336 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44300/ - 302 null null 294.5435ms
+2024-10-02 09:17:14.374 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-02 09:17:14.375 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-02 09:17:14.384 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-02 09:17:14.384 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-02 09:17:14.384 -03:00 [DBG] Connection ID "18374686523426603009" disconnecting.
+2024-10-02 09:17:14.385 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.html - 200 null text/html;charset=utf-8 58.6795ms
+2024-10-02 09:17:14.394 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44300/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-02 09:17:14.394 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/swagger-ui.css - null null
+2024-10-02 09:17:14.395 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/swagger-ui-standalone-preset.js - null null
+2024-10-02 09:17:14.396 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/swagger-ui-bundle.js - null null
+2024-10-02 09:17:14.401 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.css - null null
+2024-10-02 09:17:14.403 -03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2024-10-02 09:17:14.403 -03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2024-10-02 09:17:14.403 -03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2024-10-02 09:17:14.403 -03:00 [DBG] Request did not match any endpoints
+2024-10-02 09:17:14.403 -03:00 [DBG] No candidates found for the request path '/swagger/index.css'
+2024-10-02 09:17:14.403 -03:00 [DBG] Request did not match any endpoints
+2024-10-02 09:17:14.403 -03:00 [DBG] Request did not match any endpoints
+2024-10-02 09:17:14.403 -03:00 [DBG] Request did not match any endpoints
+2024-10-02 09:17:14.404 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.js - null null
+2024-10-02 09:17:14.406 -03:00 [DBG] No candidates found for the request path '/swagger/index.js'
+2024-10-02 09:17:14.409 -03:00 [DBG] Request did not match any endpoints
+2024-10-02 09:17:14.413 -03:00 [DBG] Connection ID "18302628903618871297" disconnecting.
+2024-10-02 09:17:14.414 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44300/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 19.1088ms
+2024-10-02 09:17:14.414 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.js - 200 null application/javascript;charset=utf-8 10.2509ms
+2024-10-02 09:17:14.414 -03:00 [DBG] Connection ID "18302628899323904001" disconnecting.
+2024-10-02 09:17:14.418 -03:00 [INF] The file /swagger-ui.css was not modified
+2024-10-02 09:17:14.418 -03:00 [INF] The file /index.css was not modified
+2024-10-02 09:17:14.418 -03:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2024-10-02 09:17:14.418 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44300/_vs/browserLink - null null
+2024-10-02 09:17:14.421 -03:00 [INF] The file /swagger-ui-bundle.js was not modified
+2024-10-02 09:17:14.424 -03:00 [DBG] Handled. Status code: 304 File: /index.css
+2024-10-02 09:17:14.424 -03:00 [DBG] Handled. Status code: 304 File: /swagger-ui.css
+2024-10-02 09:17:14.424 -03:00 [DBG] Handled. Status code: 304 File: /swagger-ui-bundle.js
+2024-10-02 09:17:14.424 -03:00 [DBG] Handled. Status code: 304 File: /swagger-ui-standalone-preset.js
+2024-10-02 09:17:14.426 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/swagger-ui.css - 304 null text/css 31.5652ms
+2024-10-02 09:17:14.426 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.css - 304 null text/css 26.4877ms
+2024-10-02 09:17:14.426 -03:00 [DBG] Connection ID "18230571318170877953" disconnecting.
+2024-10-02 09:17:14.426 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/swagger-ui-bundle.js - 304 null text/javascript 31.2705ms
+2024-10-02 09:17:14.426 -03:00 [DBG] Connection ID "18086456130095022081" disconnecting.
+2024-10-02 09:17:14.426 -03:00 [DBG] Connection ID "18158513724132950017" disconnecting.
+2024-10-02 09:17:14.426 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/swagger-ui-standalone-preset.js - 304 null text/javascript 31.2705ms
+2024-10-02 09:17:14.430 -03:00 [DBG] Connection ID "18374686497656799235" disconnecting.
+2024-10-02 09:17:14.484 -03:00 [DBG] Connection ID "18230571300991008769" disconnecting.
+2024-10-02 09:17:14.485 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44300/_vs/browserLink - 200 null text/javascript; charset=UTF-8 67.7281ms
+2024-10-02 09:17:14.641 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/v1.0/swagger.json - null null
+2024-10-02 09:17:14.641 -03:00 [DBG] No candidates found for the request path '/swagger/v1.0/swagger.json'
+2024-10-02 09:17:14.642 -03:00 [DBG] Request did not match any endpoints
+2024-10-02 09:17:14.770 -03:00 [DBG] Connection ID "18302628929388675073" disconnecting.
+2024-10-02 09:17:14.770 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/v1.0/swagger.json - 200 null application/json;charset=utf-8 128.8501ms
